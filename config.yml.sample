@@ -1,0 +1,10 @@
+irc:
+  server: 'irc.freenode.org'
+  port: '6667'
+  nick: track_tweet
+  channel: '#track_tweet'
+twitter:
+  login: shingara
+  password: password
+  track: - nowplaying
+         - wegotogetherlike
