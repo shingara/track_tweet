@@ -13,6 +13,6 @@ on :connect do
   TweetStream::Client.new(config['twitter']['login'],config['twitter']['password']).track(*config['twitter']['track']) do |status|
     # The status object is a special Hash with
     # method access to its keys.
-    msg config['irc']['channel'], status.text
+    msg config['irc']['channel'], "[#{status.user.screen_name}] >>  #{status.text}"
   end
 end
