@@ -1,0 +1,18 @@
+--- 
+dependencies: 
+- isaac: ">= 0"
+- tweetstream: ">= 0"
+specs: 
+- daemons: 
+    version: 1.0.10
+- isaac: 
+    version: 0.2.6
+- eventmachine: 
+    version: 0.12.10
+- twitter-stream: 
+    version: 0.1.4
+- tweetstream: 
+    version: 1.0.4
+hash: 22169bee958c60c2855ed9ecc65e927b4df86aed
+sources: []
+

@@ -1,0 +1,2 @@
+gem 'isaac'
+gem 'tweetstream'
