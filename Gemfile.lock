@@ -13,6 +13,7 @@ specs:
     version: 0.1.4
 - tweetstream: 
     version: 1.0.4
-hash: 22169bee958c60c2855ed9ecc65e927b4df86aed
-sources: []
-
+hash: a78a073f999ccbcb176d532a7a8596b34f1fc6be
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
